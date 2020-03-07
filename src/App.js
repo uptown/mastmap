@@ -22,7 +22,7 @@ function App() {
 
   const mapBounds = useNaverMapListenBoundsChanges(map);
 
-  const loadNaverMap = useNaverMapV3('hkwn4l6a2c');
+  const loadNaverMap = useNaverMapV3();
 
   useEffect(() => {
     getGeoLocation(({ lat, lon }) => {
